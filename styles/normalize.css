@@ -13,6 +13,10 @@ section,
 summary {
   display: block;
 }
+
+a{
+  text-decoration: none;
+}
 audio,
 canvas,
 video {
@@ -37,6 +41,7 @@ a:active,
 a:hover {
   outline: 0;
 }
+
 /* h1 {
   font-size: 2em;
 } */

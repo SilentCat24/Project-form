@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap');
+
+
+*,*::after,
+*::before{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html{
+  font-size:16px;
+}
+
+:root{
+  --clr--light-red:#EF6461;
+  --clr--background:#A8D5E2;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;;
+
+}
+body{
+  background-color: #8AA8A1;
+  font-style: 'Nunito Sans', sans-serif;
+}
+
+/* nav bar completed */
+.nav{
+  display:flex;
+justify-content: space-around;
+  background-color:#CFD7C7 ;
+ height:7rem;
+}
+.logo{
+  margin-top: 0.5rem;
+}
+
+.nav-items{
+  display: flex;
+  /* margin-left :35rem;  */
+}
+.nav-items ul{
+  display:flex;
+  text-decoration: none;
+}
+.nav-items ul li{
+ list-style-type: none;
+margin:2rem;
+background-color: #EF2D56;
+min-width:6rem;
+color:whitesmoke;
+font-size:1.1rem;
+padding:0.8rem 1rem;
+text-align:center;
+border-radius: 10px;
+}
+.nav-items ul li:hover{
+  background-color: #BFF0D4;
+  color:#817F75;
+}
+
+
+/* content page started */
+
+.container{
+display: flex;
+justify-content: space-evenly;
+padding:1rem;
+
+}
+
+.image{
+  margin-left:-10rem;
+  margin-top:-0.8rem;
+}
+
+/* buttons */
+.btn-1,
+.btn-2{
+  border:1px solid  #c4c4c4;
+  font-size:1.2rem;
+box-shadow:2px 2px 4px rgba(0,0,0,0.1);
+width:100%;
+background-color: white;
+border-radius:8px;
+text-align:center;
+padding: 0.5rem 2rem;
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+gap:1.9rem;
+}
+.btn{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  gap:1.9rem;
+  
+}
+.btn a{
+  color:rgb(87, 46, 53);
+}
+
+button{
+  text-align:center;
+  height:2.1rem;
+  background-color: #5465FF ;
+  border: 5px #AEDCC0 ;
+  border-radius: 10px;
+ color:white;
+  cursor:pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  
+ 
+}
+button:hover{
+  background-color: white;
+  color:rgb(123, 123, 141);
+}
+
+.or{
+  text-align: center;
+  color:#D90368;
+  font-size: 1.5rem;
+  margin:0.7rem;
+}
+
+/* form */
+form{
+  width: 100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+   
+  
+  }
+  
+  form h3
+  {
+font-size: 1.6rem;
+color:#da1789;
+  }
+
+form p{
+  margin:0.7rem;
+  font-size: 1.3rem;
+  color:#FFD8BE;
+
+}
+
+  form input{
+    height:2rem;
+width:100%;
+    border:none;
+    border-radius: 10px;
+   padding:0rem 2rem;
+  
+  }
+  label{
+    display: block;
+   }
+   form div{
+    margin-bottom:0.8rem;
+    position:relative;
+  }
+  
+  
+   form div i{
+    position:absolute;
+    padding: 0.5rem;
+   
+  
+  }
+  
