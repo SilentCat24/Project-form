@@ -60,7 +60,7 @@ form.addEventListener('submit',(e)=>{
 // function for password matching
 let confirm=()=>{
   if(confirmPassword.value===""){
-    errorMsg[3].innerHTML="password is required match";
+    errorMsg[3].innerHTML="password is required to match";
     failureIcon[3].style.opacity="1";
     successIcon[3].style.opacity="0";
   }else if(password.value !== confirmPassword.value){
