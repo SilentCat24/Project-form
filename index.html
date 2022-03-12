@@ -35,7 +35,7 @@
 </div>
 
 <div class="content">
-<form>
+<form id="form">
   <h3>Get Started</h3>
 <p>Already have an Account</p>
 
@@ -54,34 +54,54 @@
 <h4 class="or">or</h4>
 
 <div>
-<label for="username">username</label>
+<label for="username" >username</label>
 <i class="fas fa-user"></i>
-<input type="text" name="username" placeholder="enter name">
+<input type="text" name="username" id="username" placeholder="enter name">
+<i class="fas fa-exclamation failure-icon"></i>
+<i class="fas fa-check-circle success-icon"></i>
+<div class="error" id="error"></div>
 
 </div>
 
 <div>
 <label for="email">Email</label>
 <i class="fas fa-envelope"></i>
-<input type="email" name="email" placeholder="enter email">
+<input type="email" name="email" id="email"  placeholder="enter email">
+<i class="fas fa-exclamation failure-icon"></i>
+<i class="fas fa-check-circle success-icon"></i>
+<div class="error" id="error"></div>
+
 </div>
 
 <div>
 
 <label for="password">password</label>
 <i class="fas fa-lock"></i>
-<input type="password" name="password" placeholder="enter password">
+<input type="password" name="password" id="password"  placeholder="enter password">
+<i class="fas fa-exclamation failure-icon"></i>
+<i class="fas fa-check-circle success-icon"></i>
+<div class="error" id="error"></div>
+
+<span class="eye" onclick=show()>
+  <i id="hide" class="fas fa-eye-slash"></i> <br/>
+</span>
+
 </div>
 
 
 <div>
+
 <label for="password">Confirm password</label>
 <i class="fas fa-lock"></i>
-<input type="password" name="password" placeholder="Confirm password">
+<input type="password" name="password"  id="confirmPassword" placeholder="Confirm password">
+<i class="fas fa-exclamation failure-icon"></i>
+<i class="fas fa-check-circle success-icon"></i>
+<div class="error" id="error"> </div>
+
 </div>
 
 
-<button type="submit" >Submit</button>
+<button type="submit" id="submit" >Submit</button>
 </form>
 
 </div>
@@ -93,6 +113,6 @@
 </div>
 
 
-
+<script src="./script/script.js"></script>
 </body>
 </html>
