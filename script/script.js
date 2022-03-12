@@ -10,10 +10,12 @@ email=id('email'),
 hide=id('hide'),
 password=id('password'),
 confirmPassword=id("confirmPassword"),
+Toggle=id('toggle'),
 form=id('form');
 
 let successIcon=classes('success-icon'),
 failureIcon=classes('failure-icon'),
+items=classes('items'),
 errorMsg=classes('error');
 
 
@@ -85,6 +87,13 @@ let show=()=>{
 
 }
 
+
+// toggler button function
+const toggle=()=>{
+  if(items.style.opacity==='0'){
+    items.style.opacity==='1'
+  }
+}
 
 
 
